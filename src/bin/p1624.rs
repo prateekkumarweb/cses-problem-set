@@ -7,11 +7,11 @@ fn main() {
     let mut count = 0;
     'outer: for perm in permutations(&[0, 1, 2, 3, 4, 5, 6, 7]) {
         for i in 0..8 {
-            let p1 = (i, perm[i]);
-            if chess[p1.0][p1.1] == '*' {
-                continue 'outer;
-            }
             for j in (i + 1)..8 {
+                let p1 = (i, perm[i]);
+                if chess[p1.0][p1.1] == '*' {
+                    continue 'outer;
+                }
                 let p2 = (j, perm[j]);
                 if chess[p2.0][p2.1] == '*' {
                     continue 'outer;

@@ -15,7 +15,7 @@ fn main() {
     }
 }
 
-fn lex_next(s: &mut Vec<char>) -> bool {
+fn lex_next(s: &mut [char]) -> bool {
     let n = s.len();
     if n == 0 {
         return false;
