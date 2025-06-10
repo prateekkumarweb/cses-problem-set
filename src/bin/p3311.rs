@@ -63,5 +63,7 @@ fn main() {
 }
 
 fn pick_diff(a: &[Color]) -> Option<Color> {
-    [Color::A, Color::B, Color::C, Color::D].into_iter().find(|&c| !a.contains(&c))
+    [Color::A, Color::B, Color::C, Color::D]
+        .into_iter()
+        .find(|&c| !a.contains(&c))
 }
