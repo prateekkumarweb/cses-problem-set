@@ -12,7 +12,7 @@ fn main() {
         .iter()
         .enumerate()
         .map(|(i, &num)| (num, i + 1))
-        .collect::<std::collections::BTreeMap<_, _>>();
+        .collect::<std::collections::HashMap<_, _>>();
     let mut result = 1;
     for i in 1i64..n {
         if indices_map[&(i + 1)] < indices_map[&i] {
