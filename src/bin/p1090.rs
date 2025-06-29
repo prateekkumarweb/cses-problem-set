@@ -44,5 +44,5 @@ fn main() {
     if index == back_index && !taken[index] {
         count += 1;
     }
-    println!("{}", count);
+    println!("{count}");
 }

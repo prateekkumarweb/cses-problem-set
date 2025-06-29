@@ -23,7 +23,7 @@ fn main() {
         }
         count += 1;
     }
-    println!("{}", count);
+    println!("{count}");
 }
 
 fn permutations(input: &[usize]) -> Vec<Vec<usize>> {

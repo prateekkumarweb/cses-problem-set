@@ -30,5 +30,5 @@ fn main() {
         }
         max_customers = max_customers.max(customers);
     }
-    println!("{}", max_customers);
+    println!("{max_customers}");
 }

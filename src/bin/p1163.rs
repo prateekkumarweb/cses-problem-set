@@ -35,7 +35,7 @@ fn main() {
         *lengths.entry(num - upper_bound.0).or_insert(0) += 1;
         *lengths.entry(upper_bound.1 - num).or_insert(0) += 1;
         let max = lengths.last_key_value().unwrap().0;
-        print!("{} ", max);
+        print!("{max} ");
     }
     println!();
 }

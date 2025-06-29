@@ -10,7 +10,7 @@ fn main() {
     tower_of_hanoi(n, 1, 3, 2, &mut result);
     println!("{}", result.len());
     for (left, right) in result {
-        println!("{} {}", left, right);
+        println!("{left} {right}");
     }
 }
 

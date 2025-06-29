@@ -11,5 +11,5 @@ fn main() {
     nums.sort_unstable();
     let median = nums[nums.len() / 2];
     let sum = nums.iter().map(|&x| (x - median).abs()).sum::<i64>();
-    println!("{}", sum);
+    println!("{sum}");
 }

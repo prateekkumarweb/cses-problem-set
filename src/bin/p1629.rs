@@ -20,5 +20,5 @@ fn main() {
         }
     }
 
-    println!("{}", count);
+    println!("{count}");
 }

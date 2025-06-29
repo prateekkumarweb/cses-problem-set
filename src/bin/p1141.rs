@@ -21,5 +21,5 @@ fn main() {
         let end = i;
         max_len = max_len.max(end - start + 1);
     }
-    println!("{}", max_len);
+    println!("{max_len}");
 }

@@ -22,6 +22,6 @@ fn main() {
         result = next;
     }
     for r in result {
-        println!("{}", r);
+        println!("{r}");
     }
 }

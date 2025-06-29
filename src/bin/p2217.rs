@@ -67,6 +67,6 @@ fn main() {
                 0
             };
         }
-        println!("{}", result);
+        println!("{result}");
     }
 }

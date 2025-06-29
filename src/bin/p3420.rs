@@ -23,5 +23,5 @@ fn main() {
         index_map.insert(*n, end);
         count += end - start + 1;
     }
-    println!("{}", count);
+    println!("{count}");
 }

@@ -21,5 +21,5 @@ fn main() {
         }
     }
     let result = towers.len();
-    println!("{}", result);
+    println!("{result}");
 }

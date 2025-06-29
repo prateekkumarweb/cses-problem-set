@@ -15,5 +15,5 @@ fn main() {
         }
         res += a;
     }
-    println!("{}", res);
+    println!("{res}");
 }

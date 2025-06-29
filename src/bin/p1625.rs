@@ -18,7 +18,7 @@ fn main() {
         visited.set(i, N + 1);
     }
     search(&input, 0, (1, 1), &mut visited, &mut count);
-    println!("{}", count);
+    println!("{count}");
 }
 
 fn search(

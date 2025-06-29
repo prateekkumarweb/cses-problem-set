@@ -40,6 +40,6 @@ fn main() {
         } else {
             *count -= 1;
         }
-        println!("{}", ticket);
+        println!("{ticket}");
     }
 }

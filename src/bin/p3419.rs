@@ -37,7 +37,7 @@ fn main() {
     }
     for row in grid {
         for x in row {
-            print!("{} ", x);
+            print!("{x} ");
         }
         println!();
     }

@@ -29,5 +29,5 @@ fn main() {
         }
         count_map.entry(n).and_modify(|e| *e += 1).or_insert(1i64);
     }
-    println!("{}", count);
+    println!("{count}");
 }

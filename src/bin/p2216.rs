@@ -19,5 +19,5 @@ fn main() {
             result += 1;
         }
     }
-    println!("{}", result);
+    println!("{result}");
 }

@@ -8,5 +8,5 @@ fn main() {
         let x: usize = x.parse().unwrap();
         sum -= x;
     }
-    println!("{}", sum);
+    println!("{sum}");
 }

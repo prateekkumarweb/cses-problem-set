@@ -9,7 +9,7 @@ fn main() {
         .map(|s| s.parse::<usize>().unwrap())
         .collect::<Vec<_>>();
     let result = solve(&input, 0, 0);
-    println!("{}", result);
+    println!("{result}");
 }
 
 fn solve(input: &[usize], group1: usize, group2: usize) -> usize {

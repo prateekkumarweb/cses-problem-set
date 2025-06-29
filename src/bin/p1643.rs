@@ -18,5 +18,5 @@ fn main() {
         }
         max_sum = max_sum.max(running_sum);
     }
-    println!("{}", max_sum);
+    println!("{max_sum}");
 }

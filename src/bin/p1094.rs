@@ -12,5 +12,5 @@ fn main() {
             prev = x;
         }
     }
-    println!("{}", count);
+    println!("{count}");
 }

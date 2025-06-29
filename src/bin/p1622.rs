@@ -11,7 +11,7 @@ fn main() {
     }
     println!("{}", combs.len());
     for comb in combs {
-        println!("{}", comb);
+        println!("{comb}");
     }
 }
 

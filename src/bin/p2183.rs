@@ -16,5 +16,5 @@ fn main() {
         }
         smallest_sum += num;
     }
-    println!("{}", smallest_sum);
+    println!("{smallest_sum}");
 }

@@ -18,5 +18,5 @@ fn main() {
         }
         pow_2 = (pow_2 * pow_2) % MOD;
     }
-    println!("{}", power);
+    println!("{power}");
 }
